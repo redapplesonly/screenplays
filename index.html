@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Doc Library</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+	<style>
+		body {
+			background: #e3f2fd;
+			background-image: url('images/pexels-pietrozj-65128.jpg');
+			background-size: 100% 100%;
+			background-position: center center;
+			background-repeat: no-repeat;
+			font-family: 'Open Sans', Arial, sans-serif;
+			margin: 0;
+			color: #222;
+		}
+		.banner {
+			background: #90caf9;
+			color: #0d47a1;
+			padding: 24px 0 16px 0;
+			text-align: center;
+			font-size: 2.2em;
+			font-weight: bold;
+			letter-spacing: 2px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+		}
+		.section-title {
+			font-size: 1.5em;
+			color: #1976d2;
+			margin: 32px 0 16px 0;
+			text-align: left;
+			padding-left: 10vw;
+		}
+		.pdf-list {
+			display: flex;
+			flex-direction: column;
+			gap: 24px;
+			max-width: 700px;
+			margin: 0 auto 40px auto;
+		}
+		.pdf-card {
+			background: #fff;
+			border-radius: 8px;
+			box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+			display: flex;
+			align-items: center;
+			padding: 18px;
+			gap: 18px;
+		}
+		.pdf-thumb {
+			width: 80px;
+			height: 110px;
+			object-fit: cover;
+			border-radius: 4px;
+			border: 1px solid #bbdefb;
+			background: #e3f2fd;
+		}
+		.pdf-info {
+			flex: 1;
+		}
+		.pdf-title {
+			font-size: 1.1em;
+			font-weight: bold;
+			margin-bottom: 6px;
+		}
+		.pdf-blurb {
+			font-size: 0.98em;
+			color: #444;
+			margin-bottom: 10px;
+		}
+		.pdf-link {
+			display: inline-block;
+			background: #1976d2;
+			color: #fff;
+			padding: 7px 18px;
+			border-radius: 4px;
+			text-decoration: none;
+			font-weight: 600;
+			transition: background 0.2s;
+		}
+		.pdf-link:hover {
+			background: #1565c0;
+		}
+		footer {
+			text-align: center;
+			color: #888;
+			padding: 32px 0 16px 0;
+			font-size: 1em;
+		}
+	</style>
+</head>
+<body>
+	<div class="banner">My Doc Library</div>
+	<div class="section-title">Big Documents</div>
+	<div class="pdf-list">
+		<!-- Big PDFs -->
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic01.jpg" alt="Big PDF 1">
+			<div class="pdf-info">
+				<div class="pdf-title">Big PDF Document 1</div>
+				<div class="pdf-blurb">A comprehensive report covering 150 pages of in-depth analysis.</div>
+				<a class="pdf-link" href="/pdfs/BigPDF01.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic02.jpg" alt="Big PDF 2">
+			<div class="pdf-info">
+				<div class="pdf-title">Big PDF Document 2</div>
+				<div class="pdf-blurb">Detailed documentation with charts and case studies.</div>
+				<a class="pdf-link" href="/pdfs/BigPDF02.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic03.jpg" alt="Big PDF 3">
+			<div class="pdf-info">
+				<div class="pdf-title">Big PDF Document 3</div>
+				<div class="pdf-blurb">A full-length manual for business operations.</div>
+				<a class="pdf-link" href="/pdfs/BigPDF03.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic04.jpg" alt="Big PDF 4">
+			<div class="pdf-info">
+				<div class="pdf-title">Big PDF Document 4</div>
+				<div class="pdf-blurb">Research findings and executive summary.</div>
+				<a class="pdf-link" href="/pdfs/BigPDF04.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic05.jpg" alt="Big PDF 5">
+			<div class="pdf-info">
+				<div class="pdf-title">Big PDF Document 5</div>
+				<div class="pdf-blurb">Annual report with financial statements.</div>
+				<a class="pdf-link" href="/pdfs/BigPDF05.pdf" download>Download PDF</a>
+			</div>
+		</div>
+	</div>
+	<div class="section-title">Little Documents</div>
+	<div class="pdf-list">
+		<!-- Little PDFs -->
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic06.jpg" alt="Little PDF 1">
+			<div class="pdf-info">
+				<div class="pdf-title">Little PDF Document 1</div>
+				<div class="pdf-blurb">A concise summary of project highlights.</div>
+				<a class="pdf-link" href="/pdfs/LittlePDF01.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic07.jpg" alt="Little PDF 2">
+			<div class="pdf-info">
+				<div class="pdf-title">Little PDF Document 2</div>
+				<div class="pdf-blurb">Quick reference guide for new users.</div>
+				<a class="pdf-link" href="/pdfs/LittlePDF02.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic01.jpg" alt="Little PDF 3">
+			<div class="pdf-info">
+				<div class="pdf-title">Little PDF Document 3</div>
+				<div class="pdf-blurb">Short case study with actionable insights.</div>
+				<a class="pdf-link" href="/pdfs/LittlePDF03.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic02.jpg" alt="Little PDF 4">
+			<div class="pdf-info">
+				<div class="pdf-title">Little PDF Document 4</div>
+				<div class="pdf-blurb">Summary of meeting notes and decisions.</div>
+				<a class="pdf-link" href="/pdfs/LittlePDF04.pdf" download>Download PDF</a>
+			</div>
+		</div>
+		<div class="pdf-card">
+			<img class="pdf-thumb" src="images/pic03.jpg" alt="Little PDF 5">
+			<div class="pdf-info">
+				<div class="pdf-title">Little PDF Document 5</div>
+				<div class="pdf-blurb">Brief overview of upcoming projects.</div>
+				<a class="pdf-link" href="/pdfs/LittlePDF05.pdf" download>Download PDF</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		&copy; 2025 My Doc Library. All rights reserved.
+	</footer>
+</body>
